@@ -1,0 +1,25 @@
+{
+  "name": "photosphere-viewer-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.6.2",
+    "photo-sphere-viewer": "^4.6.4"
+  },
+  "devDependencies": {
+    "@parcel/transformer-inline-string": "^2.6.2"
+  },
+  "targets": {
+    "main": {
+      "includeNodeModules": true
+    }
+  }
+}

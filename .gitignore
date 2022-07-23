@@ -1,0 +1,4 @@
+.parcel-cache
+.nova
+dist
+node_modules
